@@ -1,7 +1,11 @@
+
 # ET6: Programming With Python
 
 This repository contains workshops, exercises and resources for learning Python
 at Emerging Talent.
+
+This is
+>>>>>>> fd4231627f8a90945475950a14922ee4f0fe0b03
 
 ## Running Scripts in this Repository
 
