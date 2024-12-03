@@ -2,7 +2,6 @@
 
 This repository contains workshops, exercises and resources for learning Python
 at Emerging Talent.
-This is a Branch
 
 ## Running Scripts in this Repository
 
