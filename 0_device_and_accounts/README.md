@@ -62,7 +62,7 @@ your study time and to measure your progress:
         in your personal computer for the materials you will study at Emerging
         Talent.
 - **Visual Studio Code**:
-  - [ ] 🥚 You can open a folder in a new window
+  - [X] 🥚 You can open a folder in a new window
   - [ ] 🥚 You can add a new file to your folder
   - [ ] 🥚 You can add a new folder inside your folder
   - [ ] 🥚 You can delete a file
