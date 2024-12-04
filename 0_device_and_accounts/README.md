@@ -63,6 +63,7 @@ your study time and to measure your progress:
         Talent.
 - **Visual Studio Code**:
   - [X] 🥚 You can open a folder in a new window
+<<<<<<< HEAD
   - [X] 🥚 You can add a new file to your folder
   - [X] 🥚 You can add a new folder inside your folder
   - [X] 🥚 You can delete a file
@@ -71,6 +72,16 @@ your study time and to measure your progress:
   - [X] 🥚 You can write a Markdown document
   - [X] 🥚 You can preview a Markdown document
   - [X] 🐣 You can use keyboard shortcuts for as many of these tasks as possible
+=======
+  - [ ] 🥚 You can add a new file to your folder
+  - [ ] 🥚 You can add a new folder inside your folder
+  - [ ] 🥚 You can delete a file
+  - [ ] 🥚 You can delete a folder
+  - [ ] 🥚 You can create a new Markdown document with the `.md` extension
+  - [ ] 🥚 You can write a Markdown document
+  - [ ] 🥚 You can preview a Markdown document
+  - [ ] 🐣 You can use keyboard shortcuts for as many of these tasks as possible
+
         (_if you are using a desktop or laptop_)
 - **GitHub Code Spaces**: GitHub Codespaces allow you to use VSCode from a web
   browser if you have a mobile device, a tablet device, or you can't install
