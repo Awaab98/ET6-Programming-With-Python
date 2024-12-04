@@ -58,19 +58,19 @@ your study time and to measure your progress:
 </details>
 
 - **Your Computer**:
-  - [ ] 🥚 **File System Management**: You can create and organize a new folder
+  - [X] 🥚 **File System Management**: You can create and organize a new folder
         in your personal computer for the materials you will study at Emerging
         Talent.
 - **Visual Studio Code**:
-  - [ ] 🥚 You can open a folder in a new window
-  - [ ] 🥚 You can add a new file to your folder
-  - [ ] 🥚 You can add a new folder inside your folder
-  - [ ] 🥚 You can delete a file
-  - [ ] 🥚 You can delete a folder
-  - [ ] 🥚 You can create a new Markdown document with the `.md` extension
-  - [ ] 🥚 You can write a Markdown document
-  - [ ] 🥚 You can preview a Markdown document
-  - [ ] 🐣 You can use keyboard shortcuts for as many of these tasks as possible
+  - [X] 🥚 You can open a folder in a new window
+  - [X] 🥚 You can add a new file to your folder
+  - [X] 🥚 You can add a new folder inside your folder
+  - [X] 🥚 You can delete a file
+  - [X] 🥚 You can delete a folder
+  - [X] 🥚 You can create a new Markdown document with the `.md` extension
+  - [X] 🥚 You can write a Markdown document
+  - [X] 🥚 You can preview a Markdown document
+  - [X] 🐣 You can use keyboard shortcuts for as many of these tasks as possible
         (_if you are using a desktop or laptop_)
 - **GitHub Code Spaces**: GitHub Codespaces allow you to use VSCode from a web
   browser if you have a mobile device, a tablet device, or you can't install
