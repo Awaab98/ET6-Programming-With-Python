@@ -39,8 +39,8 @@ CSS.
 
 ### .svg
 
-![a .svg asset](./assets/spaceship-a.svg)
+![a .svg asset](./assets/spaceship_a.svg)
 
 ### .png
 
-![a .png asset](./assets/Wilber-huge-alpha.png)
+![a .png asset](./assets/Wilber_huge_alpha.png)
