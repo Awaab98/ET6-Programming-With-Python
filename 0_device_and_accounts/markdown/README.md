@@ -33,7 +33,7 @@ get you going
 
 VS Code has a lot to help you write Markdown:
 
-- The `./markdown-in-vscode.md4` video demos some helpful features
+- The (./markdown-in-vscode.md) video demos some helpful features
 - You can read the
   [VS Code Documentation](https://code.visualstudio.com/Docs/languages/markdown)
 - And there are many helpful extensions you can install. The most important are
@@ -48,4 +48,4 @@ VS Code has a lot to help you write Markdown:
 - [lists](./examples/lists.md)
 - [text](./examples/text.md)
 - [table](./examples/tables.md)
-- [code blocks](./examples/code-blocks.md)
+- [code blocks](./examples/code_blocks.md)
