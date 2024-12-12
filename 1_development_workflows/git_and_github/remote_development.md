@@ -36,8 +36,6 @@ Enhance the security of your GitHub interactions by connecting your computer to 
 
 - **Creating Pull Requests:** Generate pull requests between branches for seamless integration.
 
-_this is my update for pull request making purposes._
-
 - **Pull Request Templates:** Implement PR templates with checklists to ensure code quality before merging to the main branch.
 
 ## Continuous Integration
