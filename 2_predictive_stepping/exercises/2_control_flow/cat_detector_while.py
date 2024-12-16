@@ -16,4 +16,5 @@ while user_text.lower() != "cat":
     elif user_text.lower() != "cat":
         print('"' + user_text + '" is not  a cat, try again.')
 
+
 print("thank you for the cat")

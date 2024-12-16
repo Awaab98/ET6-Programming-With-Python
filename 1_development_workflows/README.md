@@ -114,14 +114,14 @@ on different changes in parallel.
         `git remote set-url <exsit-shortname> <new-remote-url>`
   - [x] Rename a remote repository URL using
         `git remote rename <old-shortname> <new-shortname>`
-  - x] Remove a remote repository URL using `git remote rm <exsit-shortname>`
+  - [x] Remove a remote repository URL using `git remote rm <exsit-shortname>`
 - 🥚 **`.gitignore`**: You can use a `.gitignore` file to describe which files
   you don't want included in your git history.
 - 🥚 **VSCode**: You can ...
   - [ ] Use the _Git Graph_ extension to to visualize your repo's commit history
   - [ ] Use the _Git Lens_ extension to investigate your repository's commit
         history
-  - [ ] Explain how the file tree in VSCode can show you which files have
+  - [x] Explain how the file tree in VSCode can show you which files have
         uncommitted changes
 - [x] 🥚 **Atomic Commits**: You can save your development progress using small
       commits with clear and helpful message.

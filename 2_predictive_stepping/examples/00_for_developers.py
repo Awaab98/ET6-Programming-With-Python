@@ -6,6 +6,6 @@
 Comments and prints are tools for developers, they don't change the program's behavior.
 
 """
-
-# printing does not change anything in program memory
+# printing does not change
+# anything in program memory
 print("hello developer")

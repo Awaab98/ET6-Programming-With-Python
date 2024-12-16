@@ -8,16 +8,6 @@ class: middle, center
 
 <img alt="Emerging Talent Logo" src="../.assets/emerging_talent_logo.png" height="50%"  width="50%">
 
----
-
-class: middle, center
-
-## Knowledge Sharing: _Slido_
-
----
-
-class: middle
-
 ## Agenda
 
 - **Learning Objectives**
@@ -55,8 +45,6 @@ class: middle
 
 ---
 
-class: center
-
 ## What is Programming?
 
 <img alt="What is programming?" src="./.assets/what_is_programming.png" height="100%"  width="100%">
@@ -86,8 +74,6 @@ class: center, middle
 <a href="https://www.101computing.net/using-trace-tables/" target="_blanks"><img alt="Trace Table" src="./.assets/trace_table.gif" height="100%"  width="100%"></a>
 
 ---
-
-class: center, middle
 
 ### Visualizing Programs: _[Python Tutor](https://pythontutor.com/visualize.html#mode=edit)_
 
@@ -119,8 +105,7 @@ class: center, middle
 
 ### Visualizing Programs: _[The `trace` Module](https://docs.python.org/3/library/trace.html)_
 
- _(live demo)_
-
+_(live demo)_
 `$ python -m trace -t path/to/file.py`
 
 `$ python -m trace -c path/to/file.py`
