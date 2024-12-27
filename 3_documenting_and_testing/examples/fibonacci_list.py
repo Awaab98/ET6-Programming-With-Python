@@ -74,3 +74,6 @@ def fibonacci_list(sequence_length: int) -> list[int]:
         sequence.append(sequence[-1] + sequence[-2])
 
     return sequence
+
+    print("f")
+    

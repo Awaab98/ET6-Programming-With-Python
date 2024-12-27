@@ -69,7 +69,7 @@ class TestJoinWords(unittest.TestCase):
     
     def test_non_string_items(self):
         """It should raise AssertionError if list contains non-strings"""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(ValueError):
             join_words(['hello', 42, 'world'], ' ')
 
 if __name__ == '__main__':

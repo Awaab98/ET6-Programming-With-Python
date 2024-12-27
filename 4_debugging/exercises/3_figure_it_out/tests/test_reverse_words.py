@@ -6,9 +6,9 @@ Contains correct tests to help identify bugs in the implementation.
     careful! these tests may have bugs too.
 
 Test categories:
-    - Standard cases: typical string lists
+    - Standard cases: typical string sentences
     - Edge cases: empty strings, equal lengths
-    - Defensive tests: invalid inputs
+    - Defensive tests: invalid inputs, assertions
 
 Created on 2024-12-06
 Author: Claude AI
@@ -19,12 +19,9 @@ import unittest
 from ..reverse_words import reverse_words
 
 class TestReverseWords(unittest.TestCase):
-    """Test the reverse_words function"""
+    """Test suit for the reverse_words function"""
     
-    def test_empty_string(self):
-        """It should return empty string for empty input"""
-        self.assertEqual(reverse_words(""), "") # probably ok
-    
+    # Standard test cases
     def test_one_word(self):
         """It should return the same string for one word"""
         self.assertEqual(reverse_words("hello"), "hello") # probably ok
@@ -40,5 +37,13 @@ class TestReverseWords(unittest.TestCase):
     def test_three_spaces(self):
         """It should handle three spaces"""
         self.assertEqual(reverse_words("hello   world"), "world   hello") # probably ok
-    
-    # write more tests!
+        
+    # Edge test cases
+    def test_empty_string(self):
+        """It should return empty string for empty input"""
+        self.assertEqual(reverse_words(""), "") # probably ok
+        
+    def test_non_string_inputs(self):
+        """It should handel non-string inputs by raising an assertion"""
+        with self.assertRaises(AssertionError):
+            reverse_words(12345)

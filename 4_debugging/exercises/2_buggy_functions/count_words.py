@@ -20,13 +20,21 @@ def count_words(text: str) -> int:
 
     Returns -> int: number of words in the text
 
-    >>> count_words("hello world")
-    2
-    >>> count_words("one")
-    1
-    >>> count_words("")
-    0
+    Examples:
+        >>> count_words("hello world")
+        2
+        >>> count_words("one")
+        1
+        >>> count_words("")
+        0
     """
     assert isinstance(text, str), "input must be a string"
-
-    return len(text.split(" "))
+    
+    splitted_text = text.split(" ")
+    
+    words_counter = 0
+    for word in splitted_text:
+        if word != '':
+            words_counter += 1
+    
+    return words_counter

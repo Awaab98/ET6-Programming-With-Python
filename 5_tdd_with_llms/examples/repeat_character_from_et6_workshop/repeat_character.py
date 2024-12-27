@@ -42,7 +42,6 @@ def repeat_character(text: str, char_to_repeat: str, repetitions: int) -> str:
 
     for char in text:
       if char.lower() == char_to_repeat.lower():
-        # repeated_text += char_to_repeat * repetitions
         repeated_text += char * repetitions
       else:
         repeated_text += char

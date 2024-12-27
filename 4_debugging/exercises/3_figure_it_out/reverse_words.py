@@ -20,12 +20,16 @@ def reverse_words(text: str) -> str:
         
     Returns -> str: string with words in reverse order
     
-    >>> reverse_words("hello world")
-    'world hello'
-    >>> reverse_words("one")
-    'one'
-    >>> reverse_words("")
-    ''
+    Raise:
+        AssertionError: if the input is non-string
+    
+    Examples:
+        >>> reverse_words("hello world")
+        'world hello'
+        >>> reverse_words("one")
+        'one'
+        >>> reverse_words("")
+        ''
     """
     assert isinstance(text, str), "input must be a string"
 
@@ -35,4 +39,4 @@ def reverse_words(text: str) -> str:
     for word in words:
         result = " " + word + result
         
-    return result
+    return result.strip()

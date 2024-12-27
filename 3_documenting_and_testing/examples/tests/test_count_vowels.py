@@ -27,3 +27,8 @@ class TestCountVowels(unittest.TestCase):
         """It should raise AssertionError for non-string input"""
         with self.assertRaises(AssertionError):
             count_vowels(123)
+            
+    def test_all_capital_case(self):
+        """It should count all vowels"""
+        self.assertEqual(count_vowels("AWAAB"),3)
+    

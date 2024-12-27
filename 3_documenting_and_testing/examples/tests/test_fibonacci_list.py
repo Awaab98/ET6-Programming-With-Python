@@ -198,3 +198,4 @@ class TestFibonacciList(unittest.TestCase):
         """It should raise an assertion error if the argument is not an integer"""
         with self.assertRaises(AssertionError):
             fibonacci_list(1.0)
+            

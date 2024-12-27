@@ -25,7 +25,7 @@ def join_words(words: list, separator: str) -> str:
     
     Raises:
         AssertionError: if words is not a list or separator is not a string
-        
+        ValueError: if any of the items of the list is not a string
     Examples:
         >>> join_words(['hello', 'world'], ' ')
         'hello world'
@@ -36,8 +36,13 @@ def join_words(words: list, separator: str) -> str:
     """
     assert isinstance(words, list), "first argument must be a list"
     assert isinstance(separator, str), "separator must be a string"
+    if not all(isinstance(item, str) for item in words):
+        raise ValueError("all values should be strings")
     
     result = ""
     for word in words:
-        result = result + separator + word
+        if not result:
+            result = word
+        else:
+            result = result + separator + word
     return result

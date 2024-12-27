@@ -41,6 +41,8 @@ def count_between(numbers: list, lower: int, upper: int) -> int:
     
     count = 0
     for num in numbers:
+        if lower > upper:
+            lower, upper = upper, lower
         if lower <= num <= upper:
             count += 1
     return count
